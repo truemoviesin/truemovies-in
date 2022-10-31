@@ -1,0 +1,28 @@
+<script src="//content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+  
+    <div id="my-video1">
+  
+  </div>
+  
+  <script>// <![CDATA[
+  
+  jwplayer('my-video1').setup({
+  "playlist": [
+    {
+      "sources": [
+        {
+          "default": false,
+          "type": "mpd",
+          "file":
+          "https://assets-1.mypowerdisk.com/transcode_video/0adf8fab36acdf22eff6bd09e4686755/dash/3d528afc3661ed8aae63fdef7302dd1a.mpd",
+          "label": "0"
+        }
+      ]
+    }
+  ],
+  "primary": "html5",
+  "hlshtml": true,
+  "autostart": false
+});
+  
+  // ]]></script>
